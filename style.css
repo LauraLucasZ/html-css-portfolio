@@ -1,0 +1,132 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+}
+
+header{
+    background-color: rgb(245, 232, 221);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo{
+    color: rgb(181, 192, 208);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform:uppercase;
+}
+
+.navigation a{
+    color: rgb(181, 192, 208);
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.navigation a:hover{
+    color: rgb(204, 211, 202);
+
+}
+
+section{
+     padding: 100px 50px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("Valentino Vago | Galleria San Carlo Milano.jpg")no-repeat;
+    background-size: cover;
+    background-position: right right;
+    background-attachment: fixed;
+}
+
+h3{
+    color: rgb(218, 206, 196);
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.main h2{
+ color: antiquewhite;
+ font-size:2em;
+font-weight: 700;
+padding-left: 0px;
+}
+.main h2 span{
+color: antiquewhite;
+font-size: 1.2em;
+font-weight:600;
+display: inline-block;
+margin-top: 10px;
+}
+
+.main-btn{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: o.9em 2.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: gray;
+    transform: scale(1.1,1.1);
+}
+
+.social-icons a{
+    color: rgb(132, 148, 127);
+    font-size: 1.7em;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(181, 192, 208);
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 20.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
